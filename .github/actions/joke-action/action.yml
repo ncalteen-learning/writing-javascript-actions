@@ -5,3 +5,7 @@ description: "Use an external API to retrieve and display a joke"
 runs:
   using: "node14"
   main: "main.js"
+
+outputs:
+  joke-output:
+    description: "The resulting joke from the API"
